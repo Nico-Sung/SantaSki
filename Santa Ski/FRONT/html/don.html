@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="../css/don.css" />
+        <title>Don</title>
+    </head>
+    <body>
+        <section class="top">
+            <section class="wrapper">
+                <div class="tgt">
+                    <div class="logo">
+                        <a href="./homepage.html"
+                            ><img src="../assets/logo_final.png" alt="logo"
+                        /></a>
+                    </div>
+                    <header>
+                        <div class="button-header">
+                            <a href="homepage.html"
+                                ><button class="accueil">Accueil</button></a
+                            >
+                            <button class="don-btn">Dons</button>
+                            <a href="jeu.html"
+                                ><button class="accueil">Jeu</button></a
+                            >
+                            <a href="propos.html"
+                                ><button class="accueil">À propos</button></a
+                            >
+                        </div>
+                    </header>
+                </div>
+            </section>
+        </section>
+
+        <section class="main-container">
+            <section class="wrapper">
+                <h1>Faites un don</h1>
+                <p>
+                    Aidez les enfants à leur faire découvrir le ski combiné
+                    alpin !
+                </p>
+                <div class="last">
+                    <div class="empty"></div>
+                    <p class="last-donor"></p>
+                </div>
+                <div class="donation">
+                    <div class="don">
+                        <form class="mon-don" method="POST">
+                            <h2>Mon don</h2>
+                            <hr />
+                            <label for="amount">Montant du don:</label>
+                            <input
+                                type="number"
+                                name="amount"
+                                id="amount"
+                                required
+                            />
+                            <label for="name">Nom:</label>
+                            <input
+                                type="text"
+                                name="donorName"
+                                id="donorName"
+                                name="name"
+                                required
+                            />
+                            <label for="email">Email:</label>
+                            <input type="email" id="email" name="email" />
+                            <label for="message">Message:</label>
+                            <textarea id="message" name="message"></textarea>
+                            <button type="submit">Envoyer</button>
+                        </form>
+                    </div>
+                </div>
+
+                <div class="benevole">
+                    <h2>Devenir bénévole</h2>
+                    <p>
+                        Vous pouvez également devenir bénévole pour notre
+                        association. Pour cela, veuillez nous contacter à
+                        l'adresse suivante: SantaSki@gmail.com
+                    </p>
+                </div>
+
+                <h2 class="actualité">Actualités</h2>
+                <div class="actualités">
+                    <div class="news">
+                        <h3>Nouvelle affiche pour les prochains JO d'hiver</h3>
+                        <p>
+                            L'agence Canica a réalisé une nouvelle affiche pour
+                            les prochains JO d'hiver. Cette affiche met en avant
+                            l'association SantaSki et son engagement envers les
+                            enfants défavorisés.
+                        </p>
+                        <img
+                            src="../assets/a5782913-63c8-4314-a191-ad2925e34995.png"
+                            alt=""
+                        />
+                    </div>
+                    <div class="news">
+                        <h3>Vidéo promotionnelle</h3>
+                        <p>
+                            L'agence 3D a réalisé une vidéo promotionnelle pour
+                            SantaSki. Cette vidéo met en avant les valeurs de
+                            l'association et son engagement envers les enfants
+                            défavorisés.
+                        </p>
+                        <video src="../assets/SANTASKI.mp4" controls></video>
+                    </div>
+                    <div class="news">
+                        <h3>Nouvelle application SantaSki</h3>
+                        <p>
+                            L'agence Canica a développé une application mobile
+                            pour l'association SantaSki. Cette application
+                            permettra aux utilisateurs de faire des dons en
+                            ligne, de suivre l'actualité de l'association et de
+                            participer à des événements exclusifs.
+                        </p>
+                        <img src="../assets/IMG_2392.jpg" alt="" />
+                    </div>
+                </div>
+            </section>
+        </section>
+
+        <section class="footer">
+            <section class="wrapper">
+                <div class="footer-container">
+                    <div class="footer-left">
+                        <h2>À propos</h2>
+                        <p>
+                            Santa ski est une association qui a pour but de
+                            récolter des dons pour les enfants défavorisés.
+                        </p>
+                    </div>
+                    <div class="footer-right">
+                        <h2>Contact</h2>
+                        <p>
+                            <span>Adresse:</span> 123 rue de la neige, Pôle Nord
+                        </p>
+                        <p><span>Téléphone:</span> 01 23 45 67 89</p>
+                        <p>
+                            <span>Email: SantaSki@gmail.com</span>
+                        </p>
+                    </div>
+                    <div class="socials">
+                        <a href=""
+                            ><img src="../assets/2023_Facebook_icon.svg" alt=""
+                        /></a>
+                        <a href=""
+                            ><img src="../assets/X_logo_2023.svg" alt=""
+                        /></a>
+                        <a href=""
+                            ><img
+                                src="../assets/Instagram_logo_2016.svg"
+                                alt=""
+                        /></a>
+                    </div>
+                </div>
+            </section>
+        </section>
+        <script src="../js/don.js"></script>
+        <script src="../js/lastdon.js"></script>
+    </body>
+</html>

@@ -1,10 +1,10 @@
 # SantaSki
 
-Bienvenue sur le dépôt de **SantaSki**, un jeu web interactif développé avec **HTML, CSS, JavaScript, Node.js, Express et Prisma**.
+Bienvenue sur le dépôt de **SantaSki**, un site web interactif développé avec **HTML, CSS, JavaScript, Node.js, Express et Prisma**.
 
 ## 🎮 Aperçu
 
-SantaSki est un jeu où le Père Noël descend une piste enneigée, évite des obstacles et collecte des cadeaux. Ce projet combine un **frontend dynamique** et un **backend robuste** pour offrir une expérience immersive.
+SantaSki est un projet scolaire qui a pour but d'inciter les enfants défavorisés à aller aux vacances de skis gratuitement. Ce projet combine un **frontend dynamique** et un **backend robuste** pour offrir une expérience immersive.
 
 ## 🚀 Fonctionnalités
 

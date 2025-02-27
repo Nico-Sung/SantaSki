@@ -2,10 +2,9 @@
 
 Bienvenue sur le dépôt de **SantaSki**, un site web interactif développé avec **HTML, CSS, JavaScript, Node.js, Express et Prisma**.
 
-## 🎮 Aperçu
+## 👀 Aperçu
 
 SantaSki est un projet scolaire qui a pour but d'inciter les enfants défavorisés à aller aux vacances de skis gratuitement. Ce projet combine un **frontend dynamique** et un **backend robuste** pour offrir une expérience immersive.
-
 ## 🚀 Fonctionnalités
 
 -   **Interface fluide et responsive** (HTML, CSS, JavaScript)
